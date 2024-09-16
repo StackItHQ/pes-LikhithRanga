@@ -1,5 +1,9 @@
 For my personal use
 
+FOR DB CREATION:
+create database superjoin;
+use superjoin;
+
 drop table if exists students;
 
 CREATE TABLE students (

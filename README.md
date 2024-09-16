@@ -58,6 +58,7 @@ Many businesses use Google Sheets for collaborative data management and database
 3. **Polling**:
    - The system automatically polls the `sync_log` table in the MySQL database every 5 seconds to detect changes and synchronize them back to Google Sheets.
 
+[Click here to view the Google Spreadsheet](https://docs.google.com/spreadsheets/d/1LCHR_SPMW-0fJBMk8AH8vINX-uiPd6SLBAt28e1nFr8/edit?usp=sharing)
 ---
 
 ### Developer’s Section
@@ -77,7 +78,9 @@ Many businesses use Google Sheets for collaborative data management and database
   The application checks the database every 5 seconds to detect any changes made and synchronizes those changes with Google Sheets. This ensures real-time synchronization.
 
 #### Challenges & Solutions:
-  The biggest challenge was maintaining real-time sync between Google Sheets and the database without overloading the API with requests. The use of a `sync_log` table in the database helped in identifying and processing changes efficiently.
+  - Creating a gcp account with HDFC bank
+  - Prevent auto trigger between mysql and auto script causing duplication.
+  - The biggest challenge was maintaining real-time sync between Google Sheets and the database without overloading the API with requests. The use of a `sync_log` table in the database helped in identifying and processing changes efficiently.
 
 ---
 
