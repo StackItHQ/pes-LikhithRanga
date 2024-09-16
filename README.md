@@ -36,11 +36,11 @@ Many businesses use Google Sheets for collaborative data management and database
 
 ## Submission Checklist
 
-- [ ] My code's working just fine! 🥳
-- [ ] I have recorded a video showing it working and embedded it in the README ▶️
-- [ ] I have tested all the normal working cases 😎
-- [ ] I have even solved some edge cases (brownie points) 💪
-- [ ] I added my very planned-out approach to the problem at the end of this README 📜
+- [x] My code's working just fine! 🥳
+- [x] I have recorded a video showing it working and embedded it in the README ▶️
+- [x] I have tested all the normal working cases 😎
+- [x] I have even solved some edge cases (brownie points) 💪
+- [x] I added my very planned-out approach to the problem at the end of this README 📜
 
 ---
 
@@ -50,6 +50,7 @@ Many businesses use Google Sheets for collaborative data management and database
    - Visit `http://localhost:3000/auth` to authenticate the application with Google Sheets API.
    - Follow the authentication flow and authorize access to the specified Google Sheet.
    - Run `http://localhost:3000/syncToSheets` manually to set inital spreadsheet data into database
+   -[Click here to view the Google Spreadsheet](https://docs.google.com/spreadsheets/d/1LCHR_SPMW-0fJBMk8AH8vINX-uiPd6SLBAt28e1nFr8/edit?usp=sharing)
 
 2. **Synchronizing Data**:
    - Use `http://localhost:3000/syncToSheets` to sync data from Google Sheets to the MySQL database.
@@ -58,7 +59,7 @@ Many businesses use Google Sheets for collaborative data management and database
 3. **Polling**:
    - The system automatically polls the `sync_log` table in the MySQL database every 5 seconds to detect changes and synchronize them back to Google Sheets.
 
-[Click here to view the Google Spreadsheet](https://docs.google.com/spreadsheets/d/1LCHR_SPMW-0fJBMk8AH8vINX-uiPd6SLBAt28e1nFr8/edit?usp=sharing)
+
 ---
 
 ### Developer’s Section
