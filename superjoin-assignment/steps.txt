@@ -1,0 +1,25 @@
+drop table if exists students;
+
+CREATE TABLE students (
+  ROW_ID INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+  name VARCHAR(255) NOT NULL,
+  gender VARCHAR(10) NULL,
+  class_level VARCHAR(20) NULL,
+  home_state VARCHAR(2) NULL,
+  major VARCHAR(50) NULL,
+  extracurricular VARCHAR(50) NULL
+);
+
+node index.js
+
+click on link and go to second link
+
+Then make changes in spreadsheet and it shd be visible
+
+NGROK:
+ngrok http 3000
+
+copy code and paste in app script
+
+FOR CROSS VERIFICATION:>curl -X GET https://c583-101-0-63-34.ngrok-free.app/syncFromSheets
+Data synchronized from Sheets to MySQL.
