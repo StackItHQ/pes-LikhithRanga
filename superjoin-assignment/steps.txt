@@ -1,3 +1,5 @@
+For my personal use
+
 drop table if exists students;
 
 CREATE TABLE students (
